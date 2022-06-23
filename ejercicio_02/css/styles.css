@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: miFuente;
+  src: url(../tipografia/coolvetica\ rg\ \(2\).otf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-family: miFuente;
+  font-size: 48px;
+  font-weight: 400;
+  color: #0a2ff1;
+}
+
+h2 {
+  font-weight: 700;
+  color: #0a2ff1;
+  font-size: 29px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 28px;
+}
+
+section {
+  text-align: center;
+  background-color: #eff2ff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  width: 60%;
+  padding: 2em;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+ 
+.children {
+  width: 50%;
+  
+}
+.children p {
+  display: flex;
+  
+  font-size: 21px;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+
+.container-2 img {
+  width: 15%;
+  margin-right: 10px;
+}
+
+img {
+  width: 15%;
+}
+
+#info {
+  width: 10%;
+}
